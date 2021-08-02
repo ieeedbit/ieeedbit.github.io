@@ -1,0 +1,14 @@
+{
+  "title":"Introduction of Microbit using Tinkercad",
+  
+  "date": "24th and 25th March,2021 ",
+  "description" : "IEEE-DBIT in collaboration with IETE-DBIT conducted a workshop on Introduction to Microbit using the online simulator Tinkercad as a part of colosseum fest 2021. The aim of this workshop was to learn about the basics of controllers and processors , various sensors , circuit designing skills and learn some hands-on application to use in real time. ",
+  "links":[
+    {
+      "img1": "Event Page",
+      "url": "img/event4/microbit.jpeg" 
+    }
+    
+], 
+"pdf" : "pdf/microbit.pdf" 
+}

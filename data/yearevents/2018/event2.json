@@ -1,0 +1,12 @@
+{
+  "title":"LoRaWAN-Technology, Solutions and Ecosystem",
+  
+  "date": "July 30, 2018.",
+  "description" : "The session began with an introduction given by Mr. Vedant Vyawahare. Mr.Abhay Phansikar then gave us a brief introduction on Internet of Things (IoT) and its applications. IoT are the devices that are connected to the internet without any human intervention and LoRa is the best to serve this purpose. E.g.- Radiationlevels, air pollution etc. LoRaWAN is Low Power Long Range Wide AreaNetwork. LoRaWAN is one platform serving all applications. LoRa is a disruptivewireless long range technology. Lora works in nW power range while 10-15kbps isthe rate range.",
+  "links":[
+    
+    
+
+  ], 
+"pdf" : "pdf/lorawan.pdf" 
+}

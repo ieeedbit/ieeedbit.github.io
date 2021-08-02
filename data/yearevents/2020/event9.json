@@ -1,0 +1,18 @@
+{
+  "title":"Alumni Talk by Mr. Hussain Neralwala:How a chip is made: Conceptualization to Production",
+  
+  "date": "7th August, 2020",
+  "description" : "The EXTC Department of DBIT organized an alumni talk on “How a chip is made:Conceptualization to Production” on the 7th August, 2020.introduction, Mr. Hussain Neralwala took over and started the session by giving a brief introduction to his background in the field and his education.Further, he discussed about coupling of ‘MOS transistor’ with a brief introduction on‘Advent of VLSI’.",
+  "links":[
+    {
+      "img1": "Event Page",
+      "url": "img/event9/i1.jpg" 
+    },
+    {
+      "img2" : "img2",
+      "url": "img/event9/i2.jpg"
+    }
+
+], 
+"pdf" : "pdf/i.pdf" 
+}

@@ -1,0 +1,33 @@
+{
+  "event1": {
+    "title":"Alumni webinar: An insight into life after DBIT",
+     "date": "4th-5th March 2020"
+  },
+  
+  "event3" : {
+    "title":"Mystery Word Puzzle",
+     "date": "4th-5th March 2020"
+  },
+   "event4" : {
+    "title":"Introduction of Microbit using Tinkercad",
+     "date": "4th-5th March 2020"
+  },
+   "event5" : {
+    "title":"Content writing Competition",
+     "date": "4th-5th March 2020"
+  },
+   "event6" : {
+    "title":"IEEE Student Memberships Benefits",
+     "date": "4th-5th March 2020"
+  },
+   "event7" : {
+    "title":"Tinkercad Workshop",
+     "date": "4th-5th March 2020"
+  },
+  "event8" : {
+    "title":"Alumni Webinar Product Development",
+     "date": "4th-5th March 2020"
+  }
+  
+  
+}

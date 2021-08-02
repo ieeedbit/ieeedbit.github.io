@@ -1,0 +1,40 @@
+{
+  "event1": {
+    "title":"Introduction to Arduino"
+    
+  },
+  "event2" : {
+    "title":"Basics of Proteus and Eagle"
+    
+  },
+  "event3" : {
+    "title":"Workshop on FPGA Based Digital System Design Using Xilinx Software"
+   
+  },
+  "event4" : {
+    "title":"Fun Events"
+   
+  },
+  
+  "event5" : {
+    "title":"Seminar on Low Cost Incineration Techniques Of Sanitary Waste"
+   
+  },
+  "event6" : {
+    "title":"Sumo Wrestle Workshop"
+   
+  },
+  "event7" : {
+    "title":"Talk on LoRawan"
+   
+  },
+  "event8" : {
+    "title":"Workshop on Raspberry Pi"
+   
+  },
+  "event9" : {
+    "title":"Workshop on Wireless System Designing"
+   
+  }
+
+}

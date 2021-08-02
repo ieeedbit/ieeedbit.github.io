@@ -1,0 +1,19 @@
+{
+  "title":"Fun Events",
+  
+  "date": "3rd-6th October 2019.",
+  "description" : "DAY 1: QUIZ ‘Engineering fiction and more. In this event there were two rounds in the quiz, the first round was the elimination round in which multiple choice questions were given to the groups and they had to solve them in a time limit that was 3 min. DAY 2: ‘Break the bulb’ The event started with an introduction of the rules and regulation of the circuit. There where 4 rules to be followed by the students participating in the competition. The rules where as follows A. Each student were provided with a graph after which by analyzing it they had to solve the k-map and implement the same on the bread board. B. They had to use the minimum amount of wire provided and make the circuit as compact as possible. C. Students were asked to complete their circuits in the given time limit of 30 minutes and present their circuit to the judges present. D.They had to connect an led and using the same they had to present their output to the judges with graphical results.",
+
+  "links":[
+    {
+      "img1": "Event Page",
+      "url": "img/event4/dd1.jpg" 
+    },
+    {
+      "img2" : "img2",
+      "url": "img/event4/dd2.jpg"
+    }
+
+], 
+"pdf" : "pdf/dd.pdf" 
+}

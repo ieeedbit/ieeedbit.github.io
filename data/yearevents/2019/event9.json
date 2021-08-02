@@ -1,0 +1,19 @@
+{
+  "title":"Workshop on Wireless System Designing",
+  
+  "date": "18th 19th 20th January, 2019",
+  
+  "description" : "The session started with Ms. Ashwini Kotrasetthi and Ms. Freda Carvalo felicitating Mr.Ashok Jagatia- The head of Acevin Solutions pvt. LTD and DBIT alumni Mr. Akhil Pathak and Mr. Eric Sequeria. Mr. Ashok gave us a detailed explaination about what happens in the industry as to which of the new technologies are used. Also he introduced some important components in wireless system design. He used website Digi-Key to explain the components used in the designing. Also both designing software were installed in each laptop.designing. Mr. Akhil and Mr. Eric explained  about SMD components and soldering it on the PCB. After explaining Mr. Eric and Mr. Akhil gave components to all students to solder it on the PCB. After successful soldering of PCB by each group the main transmission part started. Finally, many groups were successful in designing wireless model.",
+  "links":[
+    {
+      "img1": "Event Page",
+      "url": "img/event9/ii1.jpg" 
+    },
+    {
+      "img2" : "img2",
+      "url": "img/event9/ii2.jpg"
+    }
+
+], 
+"pdf" : "pdf/ii.pdf" 
+}

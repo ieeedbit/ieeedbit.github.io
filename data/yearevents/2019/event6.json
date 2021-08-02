@@ -1,0 +1,19 @@
+{
+  "title":"Sumo Wrestle Workshop",
+  
+  "date": "23rd ,24th and 28th February 2019 ",
+  "description" : "The event started by Mr. Arnold welcoming the Principal, HOD, IEEE coordinator, IETE coordinator. Mr. Siddhesh then briefed the participants about the microcontroller. He also told them the difference between microcontroller & microprocessor followed by Mr. Nilesh telling them about how arduino works,its functions, its pin configuration and gave them a small idea about IDE software.Ms. Manisha then gave instructions to the participants about writing a program in arduino and explained them the basic LED blinking code followed by Ms. Sayli explaining the concept of serial communication and serial monitor.Each group had 3 matches with the opponent 1. Manual mode (bot was controlled using Bluetooth) 2. Autonomous 3. Choice based (Manual or Autonomous)",
+
+  "links":[
+    {
+      "img1": "Event Page",
+      "url": "img/event6/ff1.jpg" 
+    },
+    {
+      "img2" : "img2",
+      "url": "img/event6/ff2.jpeg"
+    }
+
+], 
+"pdf" : "pdf/ff.pdf" 
+}
