@@ -1,0 +1,18 @@
+{
+  "title":"Introduction to CNN and its Use for Image Classification",
+  
+  "date": "28th Sepetember, 2021 ",
+  "description" : "On 28th September 2021, IEEE-DBIT Student Branch organized a hands-on workshop on 'Introduction to Convolutional Neural Networks (CNN) and its Use for Image Classification. The session commenced by Ajitha Rajkumar(IEEE-DBIT-Chairperson), addressing the participants and welcoming the speaker, Dr. Bhakti Vilas Baheti to deliver the talk. Comparisons of various CNN Architectures were done with respect to size,accuracy, and parameters.",
+  "links":[
+    {
+      "img1": "Event Page",
+      "url": "img/event9/1.jpeg" 
+    },
+    {
+      "img2" : "img2",
+      "url": "img/event9/2.png"
+    }
+
+], 
+"pdf" : "pdf/event9.pdf" 
+}
