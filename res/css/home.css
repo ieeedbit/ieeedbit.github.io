@@ -72,7 +72,7 @@
   .effect_char {
     font-size: 12vh;
     font-family: "Times New Roman", Times, serif;
-    color: rgba(255, 255, 255, 0);
+    color: blue;
     animation-name: blurIn;
     animation-duration: 2s;
   }
