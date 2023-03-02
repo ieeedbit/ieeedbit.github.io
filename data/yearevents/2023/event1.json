@@ -1,0 +1,17 @@
+{
+  "title": "CAN SAT : A Satellite designing and launching workshop",
+  "date": "13th-14th March 2023",
+  "description": " About Satellite Workshop : This hands-on experience workshop is designed to equip students with essential understanding about satellites and how they operate, allowing them to develop andupdate their own satellites while solving existing difficulties in the satellite manufacturing sector.Following things students will do as a part of the workshop : 1] To fit all major subsystems found in a satellite, including power, sensors, and communications, into the volume and shape of a can . 2] To provide a parachute to ensure the can survives the landing. 3] To carry out scientific experiments and  transmit in-flight data to an Earth-based computer. Benefits  : 1]    Students will learn about rocket technology. 2] Students will learn about electronics, sensors, soldering, programming, interfacing, etc. 3]They will learn about how to make a structure as per the parameters defined for the satellite.                                                Certificates to all participants signed by ISRO expert. .. Students/one group must have one laptop for programming  ",
+  "links": [
+    {
+      "img1": "Event Page",
+      "url": "img/event1/1.jpeg"
+    },
+    {
+      "img2": "img2",
+      "url": "img/event1/2.png"
+    }
+    
+  ],
+  "pdf": "pdf/cansat.pdf"
+}
