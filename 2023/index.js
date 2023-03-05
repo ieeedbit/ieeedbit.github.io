@@ -49,13 +49,7 @@ function initializeEvents() {
                       <img src=${image2} alt="">
                    </div>
 
-                </div>
-
-                <h2>Event Details</h2>
-
-                 <p style="text-align:justify">
-                  ${desc}
-                 </p>
+                
 
 
                 <p> <strong> Event Date: \t \t </strong> <span>${date}</span></p>
