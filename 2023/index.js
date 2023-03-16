@@ -24,19 +24,19 @@ function initializeEvents() {
       pdf = data.pdf
 
 
-      if (data.links[1]){
+      if(data.links[1]){
         image2 = data.links[1].url
       } else {
         image2 = null
       }
 
-      if (data.links[0]) {
+       if(data.links[0]){
         image1 = data.links[0].url
       } else {
         image1 = null
       }
       text = "Event Pdf"
-      Registration = " Click me"
+      Registration = " Click here"
 
       if (!pdf) {
         text = ""
