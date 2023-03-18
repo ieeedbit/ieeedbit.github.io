@@ -1,0 +1,19 @@
+.img-container {
+  display: flex;
+  justify-content: start;
+  max-width: 1080px;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.img-container img {
+  width: 40%;
+  flex-grow: 1;
+  min-width: 300px;
+  margin: 24px 12px;
+}
+
+.row {
+  margin: 10px 20px;
+}

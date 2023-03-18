@@ -27,13 +27,13 @@ function initializeEvents() {
 
     // Load the data
     $.ajax({
-        url: "data/yearevents/2021/2021init.json",
+        url: "data/yearevents/2022/2022init.json",
         success: function(result) {
             events = result;
             for (myEvent in events) {
                 
                 htmlString += `<div class='col-md-6'><div class='event-card' id='` + myEvent + `' onclick="populateModal(` + i + `)" data-toggle="modal" data-target="#exampleModalCenter` + i + `" ><div class="event-content">`;
-                htmlString += `<a href="/2021/index.html?q=`+myEvent+`" class='name'><strong>` + events[myEvent].title + `</strong></a></div><div class='event-expand'><i class='fa fa-plus'></i></div></div></div>`;
+                htmlString += `<a href="/2022/index.html?q=`+myEvent+`" class='name'><strong>` + events[myEvent].title + `</strong></a></div><div class='event-expand'><i class='fa fa-plus'></i></div></div></div>`;
                 $("#events").html(htmlString);
                 
                 i += 1;
