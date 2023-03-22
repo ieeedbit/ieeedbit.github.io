@@ -1,22 +1,26 @@
-{
+
+  {
     "title": "WHY WOMEN DESERVE BETTER DESIGNS",
     "date": "16th March 2023",
+    "description" : " Refer above image.",
     
     "links": [
-      {
-        "img1": "Event Page",
-        "url": "img/event2/1.png"
-      },
-      {
-        "img2": "img2",
-        "url": "img/event2/2.png"
-      },
-      {
-        "img3": "Registration Form",
-        "url": "https://forms.gle/qc2VUFB9T1jj74hT8" 
+        {
+          "img1": "Event Page",
+          "url": "img/event2/1.png"
+        },
+        {
+          "img2": "img2",
+          "url": "img/event2/2.png"
+        },
+        {
+          "img3": "Registration Form",
+          "url": "https://forms.gle/qc2VUFB9T1jj74hT8" 
+        },
+        {
+        "img4": "Event pdf",
+        "url": "https://ieee.dbit.in/2023/index.html?q=event2" 
       }
-      
-    ]
+      ]
+    }
     
-  }
-  
