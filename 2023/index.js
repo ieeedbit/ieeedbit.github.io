@@ -38,9 +38,9 @@ function initializeEvents() {
       text = "Event Pdf"
       Registration = " Click here"
 
-      if (!pdf) {
-        text = ""
-      }
+      // if (!pdf) {
+      //   text = ""
+      // }
 
       htmlString = `<h2>${title}</h2>
 
@@ -50,7 +50,7 @@ function initializeEvents() {
                    </div>
 
                 
-
+                   <p> <strong> Description: \t \t </strong> <span>${desc}</span></p>
 
                 <p> <strong> Event Date: \t \t </strong> <span>${date}</span></p>
 
@@ -59,8 +59,8 @@ function initializeEvents() {
 
                 <p> <strong> Register Now : \t \t </strong> <span><a href=${data.links[2].url} target="_blank">${Registration}</a>  </span></p>
 
-              
-                <a href=${pdf} target="_blank">${text}</a> `
+                <p> <strong> Event pdf : \t \t </strong> <span><a href=${data.links[3].url} target="_blank">${text}</a>  </span></p>
+                     `
 
       rowDiv.innerHTML = htmlString;
     }

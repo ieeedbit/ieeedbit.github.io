@@ -1,6 +1,8 @@
 {
   "title": "CAN SAT : A Satellite designing and launching workshop",
   "date": "13th-14th March 2023",
+  "description" : " Refer below pdf.",
+
   
   "links": [
     {
@@ -14,8 +16,11 @@
     {
       "img3": "Registration Form",
       "url": "https://tinyurl.com/colosseum23workshoplink" 
+    },
+    {
+      "img4": "Event pdf",
+      "url": "doc/cansat_event.pdf" 
     }
     
-  ],
-  "pdf": "doc/cansat_event.pdf"
+  ]
 }
