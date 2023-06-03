@@ -1,0 +1,29 @@
+{
+    "title": " STEM 2.0 - PCB Layout Using  KiCad " ,
+    "date": " 09-Aug-2022 ",
+    "description" : " IEEE DBIT Student Chapter arranged a online webinar on “PCB layout using KiCad” on 9 th August, 2022. ",
+
+    
+    "links": [
+      {
+        "img1": "Event Page",
+        "url": "img/event6/1.png"
+      },
+      {
+        "img2": "img2",
+        "url": " img/event6/2.png "
+      },
+      {
+        "img3": "Registration",
+        "url": "  https://ieee.dbit.in/2022/index.html?q=event6 " 
+      }
+      ,
+      {
+        "img4": "Event pdf",
+        "url": "doc/Kicad_Worksop_2022_IEEE_Chapter.docx" 
+      }
+      
+    ]
+   
+  }
+  
