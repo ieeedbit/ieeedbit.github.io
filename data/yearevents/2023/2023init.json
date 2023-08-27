@@ -1,7 +1,19 @@
 {
-  "event4": {
+  "event7": {
+    "title":"Mindful Engineering",
+     "date": "16 august 2023"
+  },
+  "event6": {
+    "title":"Stage 1 IEEE Region 10 Robotics Competition",
+     "date": "02 august 2023"
+  },
+  "event5": {
     "title":"RECENT ADVANCEMENTS ON HIGH FREQUENCY COMMUNICATIONS",
      "date": "13th july 2023"
+  },
+  "event4": {
+    "title":"Revolutionising Industrial Processes using Motors in Automation",
+     "date": "22nd april 2023"
   },
   "event3": {
     "title":"HAM Radio WORKSHOP",
