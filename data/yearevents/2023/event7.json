@@ -9,15 +9,15 @@
         },
         {
           "img2": "img2",
-          "url": "img/event7/ "
+          "url": "img/event7/session.jpg "
         },
         {
           "img3": "Registration Form",
-          "url": "https://ieee.dbit.in/2023/index.html?q=event6" 
+          "url": "https://ieee.dbit.in/2023/index.html?q=event7" 
         },
         {
         "img4": "Event pdf",
-        "url": "https://ieee.dbit.in/2023/index.html?q=event6" 
+        "url": "doc/mindful_engineering.docx" 
       }
       ]
     }
