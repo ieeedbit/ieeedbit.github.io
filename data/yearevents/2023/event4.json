@@ -5,11 +5,11 @@
     "links": [
         {
           "img1": "Event Page",
-          "url": "img/event4/motor.png"
+          "url": "img/event4/logo.jpg"
         },
         {
           "img2": "img2",
-          "url": "img/event4/"
+          "url": "img/event4/motor.png"
         },
         {
           "img3": "Registration Form",
@@ -17,7 +17,7 @@
         },
         {
         "img4": "Event pdf",
-        "url": "doc/Recent_Advancement--.pdf" 
+        "url": "doc/Motors_in_automation.pdf" 
       }
       ]
     }
