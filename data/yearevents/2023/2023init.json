@@ -1,12 +1,20 @@
 {
+  "event11": {
+    "title":"Water Rocket Workshop & Competition",
+     "date": "7th October 2023 and 14th October 2023"
+  },
+  "event10": {
+    "title":"STEM - ANTARIKSH DAY-2",
+     "date": " 15 september 2023"
+  },
   "event9": {
-    "title":"STEM - ANTARIKSH",
-     "date": "14 and 15 september 2023"
+    "title":"STEM - ANTARIKSH DAY-1",
+     "date": "14 september 2023"
   },
   "event8": {
     "title":"Field Visit To Study The Rural Development In Tribal Maharashtra",
      "date": "12 august 2023"
-  },
+   },
   "event7": {
     "title":"Mindful Engineering",
      "date": "16 august 2023"
