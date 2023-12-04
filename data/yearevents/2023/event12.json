@@ -1,0 +1,24 @@
+{
+    "title": " WiE Big Idea Pitch Competition",
+    "date": "1st september 2023 => 15th October 2023",
+    "description" : " Two Teams participated in the IEEE WiE Big Idea Pitch Competition.",
+    "links": [
+        {
+          "img1": "Event Page",
+          "url": "img/event12/1.png"
+        },
+        {
+          "img2": "img2",
+          "url": "img/event12/2.jpg "
+        },
+        {
+          "img3": "Event Link",
+          "url": " https://wie.ieee.org/ieee-wie-climate-tech-big-idea-pitch-competition/" 
+        },
+        {
+        "img4": "Event pdf",
+        "url": "doc/WIE-Big-Idea-Pitch.pdf"  
+      }
+      ]
+    }
+    
