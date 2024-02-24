@@ -12,4 +12,9 @@
 		"name": "About Us",
 		"link": "diode.html"
     }
+	,
+    {
+		"name": "Previous Teams",
+		"link": "previous-team.html"
+    }
 ]    
