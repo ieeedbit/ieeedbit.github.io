@@ -1,0 +1,54 @@
+{
+  "event1": {
+    "title":"Alumni webinar: An insight into life after DBIT",
+     "date": "4th-5th March 2020"
+  },
+  
+  "event3" : {
+    "title":"Mystery Word Puzzle",
+     "date": "4th-5th March 2020"
+  },
+   "event4" : {
+    "title":"Introduction of Microbit using Tinkercad",
+     "date": "4th-5th March 2020"
+  },
+   "event5" : {
+    "title":"Content writing Competition",
+     "date": "4th-5th March 2020"
+  },
+   "event6" : {
+    "title":"IEEE Student Memberships Benefits",
+     "date": "4th-5th March 2020"
+  },
+   "event7" : {
+    "title":"Tinkercad Workshop",
+     "date": "4th-5th March 2020"
+  },
+  "event8" : {
+    "title":"Alumni Webinar Product Development",
+     "date": "4th-5th March 2020"
+  },
+  "event9" : {
+   "title":"Introduction to CNN and its Use for Image Classification",
+    "date": "28th Sepetember, 2021"
+ },
+ "event10" : {
+   "title":"Bug Busters Event",
+    "date": "1st April, 2021"
+ },
+ "event11" : {
+   "title":"Insights into Life at DBIT",
+    "date": "4th June, 2021 "
+ },
+ "event12" : {
+   "title":"Symposium On 5G:A catalyst to Digital Revolution",
+    "date": "8th April, 2021"
+ },
+ "event13" : {
+   "title":"Roboton - Robotics Symposium",
+    "date": "8th April, 2021"
+ }
+ 
+  
+  
+}

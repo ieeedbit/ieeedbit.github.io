@@ -1,0 +1,14 @@
+{
+  "title":"Workshop on FPGA Based Digital System Design Using Xilinx Software",
+  
+  "date": "23rd, 24th , 27th and 28th February, 2019",
+  "description" : "The event commenced with Dr. Mande , briefing the students with an introductory presentation about FPGA and its various applications,advantages and disadvantages. Later the session was taken over by Ms.Lakshmi.V, who conducted the entire Hands on training workshop. To start with, the difference between FPGA , ASIC and microcontrollers and how FPGA is betterand reliable was explained. The coding language i.e VHDL/ Verilog was then explained in detail along with examples of various code. Coding of various logicgates and other combinational circuits using Xilinx software was then taught to the students.",
+  "links":[
+    {
+      "img1": "Event Page",
+      "url": "img/event3/cc.jpg" 
+    }
+
+], 
+"pdf" : "pdf/cc.pdf" 
+}

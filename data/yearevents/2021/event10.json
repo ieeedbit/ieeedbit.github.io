@@ -1,0 +1,15 @@
+{
+  "title":"Bug Busters Event",
+  
+  "date": "1st April, 2021 ",
+  "description" : "Colosseum in collaboration with IEEE-DBIT and IETE-DBIT conducted The Bug Busters event which provided the participants an opportunity to hone their coding skills and fill the loopholes in their coding journey by : \n 1. Predicting the output \n 2. Debugging the code \n 3. Applying logic and code a solution to a given problem statement. \n The participants were provided with an opportunity to choose from the following languages to appear for the competition : \n  1. C \n 2. Java \n 3. Python \n 4. Scilab",
+  "links":[
+    {
+      "img1": "Event Page",
+      "url": "img/event10/bug.jpeg" 
+    }
+   
+
+], 
+"pdf" : "pdf/event_10.pdf" 
+}

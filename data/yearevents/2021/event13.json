@@ -1,0 +1,18 @@
+{
+  "title":"Roboton - Robotics Symposium",
+  
+  "date": "8th April, 2021 ",
+  "description" : "IEEE SIES GST & IEEE DBIT Conducted Roboton Symposium on 15th October 2021 to 17th October 2021.The event received a funding of 10,000 INR. The expenditure incurred was 6000 INR (2000 INR each Gift Vouchers for 3 Speakers) and the balance  amount was distributed among IEEE SIES GST & IEEE DBIT.",
+  "links":[
+    {
+      "img1": "Poster",
+      "url": "img/event13/robo_1.jpeg" 
+    },
+    {
+      "img2" : "Image",
+      "url": "img/event13/robo_2.jpg"
+    }
+
+], 
+"pdf" : "pdf/event_13.pdf" 
+}

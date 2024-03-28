@@ -1,0 +1,18 @@
+{
+  "title":"Alumni Webinar Product Development",
+  
+  "date": "12th April, 2021 ",
+  "description" : "  The EXTC Department of DBIT organized an alumnus talk in collaboration IEEE DBIT Student Branch on “Product Development and Engineering Design as a Career” on 12th April, 2021. The session commenced with Ms. Ajitha Rajkumar, the Chairperson of IEEE DBIT SB,addressing the participants and welcoming the speaker for the talk.Mr. Ashutosh Rane, Vice-Chairperson of IEEE DBIT SB introduced the speaker, Mr.Gaurav Pednekar who is currently working as a Design Engineer Consultant, with Capgemini India Tech. Services. He is an alumnus of Batch of 2015-EXTC.Mr. Gaurav Pednekar started the session by giving a brief introduction about his background in the chosen field.He started the session by explaining the use of engineering design for product development and discussed the different stages of prototyping followed in the industry.Further, he stated the potential and scope for candidates using statistical data of how on 20-30% of the students are able to secure a job among approximately fifteen lakh engineers who graduate every year.",
+  "links":[
+    {
+      "img1": "Event Page",
+      "url": "img/event8/pro.jpeg" 
+    },
+    {
+      "img2" : "img2",
+      "url": "img/event8/prod.jpeg"
+    }
+
+], 
+"pdf" : "pdf/product.pdf" 
+}

@@ -1,0 +1,64 @@
+{
+  "event1": {
+    "title":"Lanyard Ceremony",
+    "date": "4th-5th March 2020"
+  },
+  "event2" : {
+    "title":"RoboSoccer Workshop",
+    "date": "4th-5th March 2020"
+  },
+  "event3" : {
+    "title":"Industrial Visit to SAMEER MUMBAI CAMPUS",
+    "date": "4th-5th March 2020"
+  },
+  "event4" : {
+    "title":"Technical Poster Designing",
+    "date": "4th-5th March 2020"
+  },
+  "event5" : {
+    "title":"2D Animation Workshop using PIVOT",
+   "date": "4th-5th March 2020"
+  },
+  "event6" : {
+    "title":"Alumni Talk : Modern Trends in RF/Microwaves",
+   "date": "4th-5th March 2020"
+  },
+  "event7" : {
+    "title":"Technical Poster Presentation Competition",
+   "date": "4th-5th March 2020"
+  },
+  "event8" : {
+    "title":"Video Making Competition",
+   "date": "4th-5th March 2020"
+  },
+  "event9" : {
+    "title":"Alumni Talk by Mr.Hussain Nerawala : How a chip is made: Conceptualization to Production",
+    "date": "4th-5th March 2020"
+  },
+  "event10" : {
+    "title":"Talk by Mr. Shirish Dharmadhikari : Road Map for Beginners in the Corporate World",
+   "date": "4th-5th March 2020"
+  },
+  "event11" : {
+    "title":"Technical Quiz",
+   "date": "4th-5th March 2020"
+  },
+  "event12" : {
+    "title":"Alumni Talk by Dr. Tom Sebastian :Skills for an Antenna and Microwave Design Engineer",
+   "date": "4th-5th March 2020"
+  },
+  "event13" : {
+    "title":"Workshop on Image Processing and Machine Learning Using Python",
+   "date": "4th-5th March 2020"
+  },
+  "event14" : {
+    "title":"Wireless System Designing",
+   "date": "4th-5th March 2020"
+  },
+  "event15" : {
+    "title":"Critical Media Literacy Webinar",
+   "date": "4th-5th March 2020"
+  }
+  
+  
+}
