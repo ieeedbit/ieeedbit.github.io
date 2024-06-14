@@ -1,0 +1,25 @@
+{
+    "title":"Mastering PCB Fabrication and REFLOW OVEN Techniques",
+     "date": " 2nd March, 2024",
+    "description" : "Develop comprehensive proficiency in PCB fabrication processes and reflow oven techniques to ensure the production of high-quality printed circuit boards with reliable solder joints. This mastery will encompass understanding PCB design, fabrication, assembly, and testing, as well as mastering the operation and optimization of reflow ovens to achieve precise temperature profiles for solder reflow. By mastering these techniques, one can ensure the quality, reliability, and efficiency of electronic device manufacturing processes",
+    "links":
+      [
+        {
+          "img1": "Event Page",
+          "url": "img/event4/1.jpg"  
+        },
+        {
+          "img2": "img2",
+          "url": "img/event4/2.png "
+        },
+        {
+          "img3": "Event Link",
+          "url": " https://docs.google.com/forms/d/e/1FAIpQLScR02nshRLGXF1iy8v9NVie0ILhHMjoDjLr9N9Err1nOCMdNg/viewform?usp=sf_link " 
+        },
+        {
+        "img4": "Event pdf",
+        "url": "pdf/Reflow_Oven.pdf"  
+      }
+      ]
+    }
+    

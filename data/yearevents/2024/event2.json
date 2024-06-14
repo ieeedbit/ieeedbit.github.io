@@ -1,0 +1,25 @@
+{
+    "title":"Technical Report Writing Workshop",
+    "date": "6th & 9th February 2024",
+    "description" :" Introduce participants to LaTeX and its advantages in academic and technical writing and Familiarize participants with MiKTeX, a popular LaTeX distribution for Windows",
+    "links": 
+    [
+        {
+          "img1": "Event Page",
+          "url": "img/event2/LATEX.png"
+        },
+        {
+          "img2": "img2",
+          "url": "img/event2/candid.jpg"
+        },
+        {
+          "img3": "Registration Form",
+          "url": "https://forms.gle/43XAg5DfUBzyCTV67" 
+        },
+        {
+        "img4": "Event pdf",
+        "url": "pdf/LATEX_REPORT.pdf" 
+      }
+    ]
+}
+    
