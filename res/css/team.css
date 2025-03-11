@@ -5,6 +5,7 @@
     transform: translate(-50%, -50%);
     font-size: 3.5em;
     text-align: center;
+    animation-delay: 0.5s;
 }
 
 #core {
@@ -14,6 +15,8 @@
 .member-names {
     font-size: 1.2em;
     font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .team-info {
@@ -23,6 +26,7 @@
 
 hr {
     border: 2px solid #499bea;
+    margin: 2rem 0;
 }
 
 .no-tablet {
@@ -30,14 +34,48 @@ hr {
     margin: 0 !important;
 }
 
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.fadeIn {
+    opacity: 0;
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 @media only screen and (max-width: 1200px) {
     .no-tablet {
         display: block;
+    }
+    .page-title {
+        font-size: 2.5em;
     }
 }
 
 @media only screen and (max-width: 1000px) {
     .no-tablet {
         display: none;
+    }
+    .page-title {
+        font-size: 2em;
+    }
+    .member-names {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .page-title {
+        font-size: 1.8em;
+    }
+    .team-info {
+        padding-top: 30px;
+        padding-bottom: 15px;
     }
 }

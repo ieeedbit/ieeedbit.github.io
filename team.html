@@ -9,7 +9,6 @@
     <!-- Default Image present -->
     <meta property="og:image" content="res/img/logo.png">
 
-
     <!-- Page Title -->
     <title>Team | IEEE DBIT</title>
 
@@ -24,24 +23,31 @@
     <link rel="stylesheet" href="res/css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-    <!-- Page sepcific -->
+    <!-- Page specific -->
     <link rel="stylesheet" href="res/css/team.css">
+    <style>
+        .staff-entry {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .row {
+            margin: 0 -15px;
+        }
+        .col-md-4 {
+            padding: 0 15px;
+        }
+    </style>
 
     <!-- Linked Scripts needed -->
     <script src="https://preview.colorlib.com/theme/unapp/js/modernizr-2.6.2.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"
-        integrity="sha512-xq+0+dRhI6SZOh+lDnMJEju2p2YPINflJLcYrRAsIMaXnJi6/V3lppCMCYsB2MLeF2E93r+fVo0MioY90pNzpw=="
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
-        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.2.0/jquery.countTo.js"
-        integrity="sha512-W+fE2PngAaUn114foOtj7bJNDqrqANLKjGb6gyz159hoF1+NnEWRfgQtEpn3kCLjQlUQ/FAhTsmmqQNOx/RBOw=="
-        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.2.0/jquery.countTo.min.js"></script>
 
     <!-- Preload -->
     <link rel="preload" href="js/header.js" as="script">
@@ -61,6 +67,18 @@
         gtag('config', 'UA-106590424-3');
 
         displayHeader();
+    </script>
+
+    <!-- Add animation initialization -->
+    <script>
+        $(document).ready(function() {
+            // Initialize waypoints for animate.css
+            $('.animate-box').waypoint(function() {
+                $(this.element).addClass('animated fadeIn');
+            }, {
+                offset: '90%'
+            });
+        });
     </script>
 </head>
 
@@ -88,7 +106,7 @@
             data-section="home">
             <div id="particles-js"></div>
             <div class="display-t display-t2 text-center">
-                <div class="display-tc display-tc2">
+                <div class="display-tc display极tc2">
                     <div class="container">
                         <div class="col-md-12 col-md-offset-0 animate-box">
                             <h2 class="page-title">Team</h2>
@@ -107,7 +125,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 col-md-offset-2 text-center animate-box">
+                    <div class="col-md-4 text-center animate-box">
                         <div class="staff-entry">
                             <img src="core//2023/fredamam.jpeg" class="staff-img">
                             <div class="desc">
@@ -123,32 +141,28 @@
                             </div>
                         </div>
                     </div>
-                    <!-- namita maam, need to chanage profile page -->
-                    <!--  remove below comments for namita maam -->
-                    <!-- <div class="col-md-4 text-center animate-box">
+                    <div class="col-md-4 text-center animate-box">
                         <div class="staff-entry">
-                            <img src="core/namitamam.jpeg" class="staff-img" alt="Namita Agrawal">
+                            <img src="core//2023/fredamam.jpeg" class="staff-img">
                             <div class="desc">
-                                <h3>Ms. Namita Agrawal </h3>
-                                <span class="faculty-position">
-                                    Head of Department<br>
-                                    Electronics and Telecommunication Engineering<br>
+                                <h3>Mr. Tayyabali Sayyad</h3>
+                                <span class="faculty-position">Assistant Professor - Department of Information Technology Engineering <br/>
+                                    IEEE-DBIT CS Branch Advisor
                                 </span>
-                                <p><a href="https://www.linkedin.com/in/dr-ashwini-kotrashetti-162917180"
-                                        title="Dr. Sourav K Addya's Personal Page"
-                                        class="btn btn-primary btn-outline with-arrow" target="_blank">Visit LinkedIn
-                                        Page <i class="fa fa-arrow-right"></i></a></p>
+                                <div class="no-tablet"><br></div>
+                                <p><a href="https://sites.google.com/view/freda-carvalho-profile-page/home"
+                                        title="Ms. Freda Carvalho's Personal Page"
+                                        class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Profile
+                                        Page <i极fa fa-arrow-right"></i></a></p>
                             </div>
                         </div>
                     </div>
-                </div> -->
-
 
                     <div class="col-md-4 text-center animate-box">
                         <div class="staff-entry">
                             <img src="core/2023/Ashwini.jpg" class="staff-img" alt="Dr. Ashwini Kotrashetti">
                             <div class="desc">
-                                <h3>Dr.Ashwini Kotrashetti </h3>
+                                <h3>Dr. Ashwini Kotrashetti</h3>
                                 <span class="faculty-position">
                                     Associate Professor<br>
                                     dep. of Electronics and Telecommunication Engineering,<br>
@@ -171,12 +185,13 @@
                 <div class="row">
                     <div class="col-md-4 col-md-offset-2 text-center animate-box">
                         <div class="staff-entry">
-                            <img src="core//2024/ANNANYA.png" class="staff-img" alt="Annanya Zadbuke">
+                            <img src="core/2025/kartik.jpg" class="staff-img" alt="Kartikk Dandelia">
                             <div class="desc">
-                                <h3>Annanya Zadbuke</h3>
+                                <h3>Kartik Dandelia</h3>
                                 <span class="faculty-position">Chairperson</span>
                                 <div class="no-tablet"><br></div>
-                                <p><a href="https://www.linkedin.com/in/annanya-zadbuke-44665622b"
+                                <p><a href="https://www.linkedin.com/in/kartik-dandelia-3b5134268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                    "
                                         class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Profile
                                         Page <i class="fa fa-arrow-right"></i></a></p>
                             </div>
@@ -184,12 +199,13 @@
                     </div>
                     <div class="col-md-4 text-center animate-box">
                         <div class="staff-entry">
-                            <img src="core/2024/DIBYA.png" class="staff-img"
-                                alt="Dibyarupa Pradhan">
+                            <img src="core/2025/zubiaa.jpg" class="staff-img"
+                                alt="Zubia Sarang">
                             <div class="desc">
-                                <h3>Dibyarupa Pradhan</h3>
+                                <h3>Zubia Sarang</h3>
                                 <span class="faculty-position">Vice Chairperson</span>
-                                <p><a href="https://www.linkedin.com/in/dibyarupa-pradhan-bab134268"
+                                <p><a href="https://www.linkedin.com/in/zubia-s-19054629a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                    "
                                         class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Profile
                                         Page <i class="fa fa-arrow-right"></i></a></p>
                             </div>
@@ -200,12 +216,13 @@
                 <div class="row">
                     <div class="col-md-4 text-center animate-box">
                         <div class="staff-entry">
-                            <img src="core/2024/KARTIK.PNG" class="staff-img"
-                                alt="Kartik Dandelia">
+                            <img src="core/2025/aryan.jpg" class="staff-img"
+                                alt="Aryan Arde">
                             <div class="desc">
-                                <h3>Kartik Dandelia</h3>
+                                <h3>Aryan Arde</h3>
                                 <span class="faculty-position">Secretary</span>
-                                <p><a href="https://www.linkedin.com/in/kartik-dandelia-3b5134268"
+                                <p><a href="https://www.linkedin.com/in/aryan-arde-792345260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                    "
                                         class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Profile
                                         Page <i class="fa fa-arrow-right"></i></a></p>
                             </div>
@@ -214,13 +231,13 @@
 
                     <div class="col-md-4 text-center animate-box">
                         <div class="staff-entry">
-                            <img src="core/2024/SHETTY.png" class="staff-img"
-                                alt="Khushi Shetty">
+                            <img src="core/2025/prathamesh.jpg" class="staff-img"
+                                alt="Prathamesh Kurdekar">
                             <div class="desc">
-                                <h3>Khushi Shetty</h3>
+                                <h3>Prathamesh Kurdekar</h3>
                                 <span class="faculty-position">Treasurer</span>
                                 <div class="no-tablet"><br></div>
-                                <p><a href="https://www.linkedin.com/in/khushi-shetty-1a363518a"
+                                <p><a href=""
                                         class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Profile
                                         Page <i class="fa fa-arrow-right"></i></a></p>
                             </div>
@@ -229,13 +246,13 @@
 
                     <div class="col-md-4 text-center animate-box">
                         <div class="staff-entry">
-                            <img src="core/2024/SANJEET.png" class="staff-img"
-                                alt="Sanjeet Prajapati">
+                            <img src="core/2025/moin.jpg" class="staff-img"
+                                alt="Moin Khan">
                             <div class="desc">
-                                <h3>Sanjeet Prajapati</h3>
+                                <h3>Moin Khan</h3>
                                 <span class="faculty-position">Web Master </span>
                                 <div class="no-tablet"><br></div>
-                                <p><a href="https://www.linkedin.com/in/sanjeet-prajapati-895a27243"
+                                <p><a href="https://moinkhan-two.vercel.app"
                                         class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Profile
                                         Page <i class="fa fa-arrow-right"></i></a></p>
                             </div>
@@ -245,12 +262,13 @@
                     <div class="row">
                         <div class="col-md-4 text-center animate-box">
                             <div class="staff-entry">
-                                <img src="core/2024/DALVI.png" class="staff-img"
-                                    alt="Dheeraj Dalvi">
+                                <img src="core/2025/jangam.jpg" class="staff-img"
+                                    alt="Aayush Jangam">
                                 <div class="desc">
-                                    <h3>Dheeraj Dalvi</h3>
+                                    <h3>Aayush Jangam</h3>
                                     <span class="faculty-position">Joint Secretary</span>
-                                    <p><a href="https://www.linkedin.com/in/dheeraj-dalvi-339144268"
+                                    <p><a href="https://www.linkedin.com/in/aayush-jangam-b13b7b307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                        "
                                             class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Profile
                                             Page <i class="fa fa-arrow-right"></i></a></p>
                                 </div>
@@ -259,13 +277,14 @@
 
                         <div class="col-md-4 text-center animate-box">
                             <div class="staff-entry">
-                                <img src="core/2024/SUHANI.png" class="staff-img"
-                                    alt="Suhani Sawant">
+                                <img src="core/2025/nirmiti.jpg" class="staff-img"
+                                    alt="Nirmiti Bait">
                                 <div class="desc">
-                                    <h3>Suhani Sawant</h3>
+                                    <h3>Nirmiti Bait</h3>
                                     <span class="faculty-position">Joint Treasurer</span>
                                     <div class="no-tablet"><br></div>
-                                    <p><a href="__blank__"
+                                    <p><a href="https://www.linkedin.com/in/nirmiti-babu-bait-03a6b42b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                        "
                                             class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Profile
                                             Page <i class="fa fa-arrow-right"></i></a></p>
                                 </div>
@@ -274,11 +293,11 @@
                         <div class="row">
                             <div class="col-md-4 text-center animate-box">
                                 <div class="staff-entry">
-                                    <img src="core/2024/KADAM.png" class="staff-img" alt="Pooja Kadam">
+                                    <img src="core/2025/glynis.jpg" class="staff-img" alt="Glynis D'mello">
                                     <div class="desc">
-                                        <h3>Pooja Kadam</h3>
+                                        <h3>Glynis D'mello</h3>
                                         <span class="faculty-position">Joint Web Master</span>
-                                        <p><a href="https://www.linkedin.com/in/pooja-kadam-8586a12ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                        <p><a href=""
                                                 class="btn btn-primary btn-outline with-arrow" target="_blank">Visit
                                                 Profile
                                                 Page <i class="fa fa-arrow-right"></i></a></p>
@@ -289,12 +308,13 @@
                             <div class="row">
                                 <div class="col-md-4 text-center animate-box">
                                     <div class="staff-entry">
-                                        <img src="core/2024/JADHAV.png"
-                                            class="staff-img" alt="Aditya Jadhav">
+                                        <img src="core/2025/dhruv.jpg"
+                                            class="staff-img" alt="Dhruv Tare">
                                         <div class="desc">
-                                            <h3>Aditya Jadhav</h3>
+                                            <h3>Dhruv Tare</h3>
                                             <span class="faculty-position">Reporting Head</span>
-                                            <p><a href="https://www.linkedin.com/in/aditya-jadhav-5201b922a" class="btn btn-primary btn-outline with-arrow"
+                                            <p><a href="https://www.linkedin.com/in/dhruv-tare-812193229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                " class="btn btn-primary btn-outline with-arrow"
                                                     target="_blank">Visit
                                                     Profile
                                                     Page <i class="fa fa-arrow-right"></i></a></p>
@@ -304,12 +324,13 @@
 
                                 <div class="col-md-4 text-center animate-box">
                                     <div class="staff-entry">
-                                        <img src="core/2024/MAYURI.png" class="staff-img" alt="Mayuri Kadam">
+                                        <img src="core/2025/gajbhiye.jpg" class="staff-img" alt="Ayush Gajbhiye">
                                         <div class="desc">
-                                            <h3>Mayuri Kadam</h3>
-                                            <span class="faculty-position">Publicity Head</span>
+                                            <h3>Ayush Gajbhiye</h3>
+                                            <span class="faculty-position">PR & Publicity Head</span>
                                             <div class="no-tablet"><br></div>
-                                            <p><a href="http://www.linkedin.com/in/mayuri-kadam-21b52a27a" class="btn btn-primary btn-outline with-arrow"
+                                            <p><a href="https://www.linkedin.com/in/ayush-gajbhiye-4712791b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                " class="btn btn-primary btn-outline with-arrow"
                                                     target="_blank">Visit
                                                     Profile
                                                     Page <i class="fa fa-arrow-right"></i></a></p>
@@ -319,10 +340,10 @@
                                 <div class="row">
                                     <div class="col-md-4 text-center animate-box">
                                         <div class="staff-entry">
-                                            <img src="core/2024/DABHADE.png" class="staff-img" alt="Aditya Dabhade">
+                                            <img src="core/2025/krushnali.jpg" class="staff-img" alt="Krushnali Mungekar">
                                             <div class="desc">
-                                                <h3>Aditya Dabhade</h3>
-                                                <span class="faculty-position">Social Media Head</span>
+                                                <h3>Krushnali Mungekar</h3>
+                                                <span class="faculty-position">CS Chair</span>
                                                 <p><a href="https://www.linkedin.com/in/aditya-dabhade?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                                                         class="btn btn-primary btn-outline with-arrow"
                                                         target="_blank">Visit
@@ -335,12 +356,13 @@
                                     <div class="row">
                                         <div class="col-md-4 text-center animate-box">
                                             <div class="staff-entry">
-                                                <img src="core/2024/PUNEKAR.png" class="staff-img"
-                                                    alt="Aditya Punekar">
+                                                <img src="core/2025/pritika.jpg" class="staff-img"
+                                                    alt="Pritika">
                                                 <div class="desc">
-                                                    <h3>Aditya Punekar</h3>
+                                                    <h3>Pritika Mediboina</h3>
                                                     <span class="faculty-position">Joint Reporting</span>
-                                                    <p><a href="http://www.linkedin.com/in/aditya-punekar-8760762a4"
+                                                    <p><a href="https://www.linkedin.com/in/pritika-mediboina-884403321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        "
                                                             class="btn btn-primary btn-outline with-arrow"
                                                             target="_blank">Visit
                                                             LinkedIn
@@ -350,32 +372,49 @@
                                         </div>
                                         <div class="col-md-4 text-center animate-box">
                                             <div class="staff-entry">
-                                                <img src="core/2024/PRERANA.png"
-                                                    class="staff-img" alt="Prerana Gawale">
+                                                <img src="core/2025/piyush.jpg" class="staff-img"
+                                                    alt="Piyush">
                                                 <div class="desc">
-                                                    <h3>Prerana Gawale</h3>
+                                                    <h3>Piyush Mistry</h3>
                                                     <span class="faculty-position">Joint Publicity</span>
                                                     <div class="no-tablet"><br></div>
-                                                    <p><a href="https://www.linkedin.com/in/prerana-gawale-971832298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                                    <p><a href="https://www.linkedin.com/in/piyush-mistry-560674317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        "
                                                             class="btn btn-primary btn-outline with-arrow"
                                                             target="_blank">Visit
                                                             LinkedIn
                                                             Page <i class="fa fa-arrow-right"></i></a></p>
                                                 </div>
                                             </div>
-                                       
-                                        
                                                
                                         </div>
                                         <div class="col-md-4 text-center animate-box">
                                             <div class="staff-entry">
-                                                <img src="core/2024/MOHD_RAZA.png"
-                                                    class="staff-img" alt="Mohd.Raza">
+                                                <img src="core/2025/shariya.jpg" class="staff-img"
+                                                    alt="Piyush">
                                                 <div class="desc">
-                                                    <h3>Mohd.Raza</h3>
+                                                    <h3>Shariya Ansari</h3>
+                                                    <span class="faculty-position">Vice CS</span>
+                                                    <div class="no-tablet"><br></div>
+                                                    <p><a href="https://www.linkedin.com/in/piyush-mistry-560674317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        "
+                                                            class="btn btn-primary btn-outline with-arrow"
+                                                            target="_blank">Visit
+                                                            LinkedIn
+                                                            Page <i class="fa fa-arrow-right"></i></a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 text-center animate-box">
+                                            <div class="staff-entry">
+                                                <img src="core/2025/yashvi.jpg"
+                                                    class="staff-img" alt="Yashvi Jain">
+                                                <div class="desc">
+                                                    <h3>Yashvi Jain</h3>
                                                     <span class="faculty-position">MTT-S Chair</span>
                                                     <div class="no-tablet"><br></div>
-                                                    <p><a href="https://www.linkedin.com/in/mohd-raza-31a537221" class="btn btn-primary btn-outline with-arrow"
+                                                    <p><a href="https://www.linkedin.com/in/yashvi-jain-4a608a2b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        " class="btn btn-primary btn-outline with-arrow"
                                                             target="_blank">Visit
                                                             LinkedIn
                                                             Page <i class="fa fa-arrow-right"></i></a></p>
@@ -384,13 +423,14 @@
                                         </div>
                                         <div class="col-md-4 text-center animate-box">
                                             <div class="staff-entry">
-                                                <img src="core/2024/RUTVIK.png" class="staff-img"
-                                                    alt="Rutvik Patil">
+                                                <img src="core/2025/priyanshu.jpg" class="staff-img"
+                                                    alt="Priyanshu Sakharkar">
                                                 <div class="desc">
-                                                    <h3>Rutvik Patil</h3>
+                                                    <h3>Priyanshu Sakharkar</h3>
                                                     <span class="faculty-position">RAS Chair</span>
                                                     <div class="no-tablet"><br></div>
-                                                    <p><a href="https://www.linkedin.com/in/rutvik-patil-0b2ba4267"
+                                                    <p><a href="https://www.linkedin.com/in/priyanshu-sakharkar-b6b31332b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        "
                                                             class="btn btn-primary btn-outline with-arrow"
                                                             target="_blank">Visit
                                                             LinkedIn
@@ -400,13 +440,14 @@
                                         </div>
                                         <div class="col-md-4 text-center animate-box">
                                             <div class="staff-entry">
-                                                <img src="core/2024/SARANG.png" class="staff-img"
-                                                    alt="Zubia Sarang">
+                                                <img src="core/2025/amey.jpg" class="staff-img"
+                                                    alt="Amey Dalvi">
                                                 <div class="desc">
-                                                    <h3>Zubia Sarang</h3>
+                                                    <h3>Amey Dalvi</h3>
                                                     <span class="faculty-position">SIGHT Chair</span>
                                                     <div class="no-tablet"><br></div>
-                                                    <p><a href="https://www.linkedin.com/in/zubia-s-19054629a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                                    <p><a href="https://www.linkedin.com/in/amey-dalvi-3b3b832b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+                                                        "
                                                             class="btn btn-primary btn-outline with-arrow"
                                                             target="_blank">Visit
                                                             LinkedIn
@@ -416,13 +457,14 @@
                                         </div>
                                         <div class="col-md-4 text-center animate-box">
                                             <div class="staff-entry">
-                                                <img src="core/2024/MOHITE.png" class="staff-img"
-                                                    alt="Raj Mohite">
+                                                <img src="core/2025/anu.jpg" class="staff-img"
+                                                    alt="Anu Saha">
                                                 <div class="desc">
-                                                    <h3>Raj Mohite</h3>
+                                                    <h3>Anu Saha</h3>
                                                     <span class="faculty-position">Joint MTT-S</span>
                                                     <div class="no-tablet"><br></div>
-                                                    <p><a href="https://www.linkedin.com/in/rajmohite"
+                                                    <p><a href="https://www.linkedin.com/in/anu-saha545?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        "
                                                             class="btn btn-primary btn-outline with-arrow"
                                                             target="_blank">Visit
                                                             LinkedIn
@@ -432,13 +474,14 @@
                                         </div>
                                         <div class="col-md-4 text-center animate-box">
                                             <div class="staff-entry">
-                                                <img src="core/2024/PREM.png"
-                                                    class="staff-img" alt="Prem Singh">
+                                                <img src="core/2025/sanket.jpg"
+                                                    class="staff-img" alt="Sanket Prajapati">
                                                 <div class="desc">
-                                                    <h3>Prem Singh</h3>
+                                                    <h3>Sanket Prajapati</h3>
                                                     <span class="faculty-position">Joint RAS</span>
                                                     <div class="no-tablet"><br></div>
-                                                    <p><a href="https://www.linkedin.com/in/prem-singh-8aa9a3255" 
+                                                    <p><a href="https://www.linkedin.com/in/sanketprajapati5220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        " 
                                                             class="btn btn-primary btn-outline with-arrow"
                                                             target="_blank">Visit
                                                             LinkedIn
@@ -448,13 +491,13 @@
                                         </div>
                                         <div class="col-md-4 text-center animate-box">
                                             <div class="staff-entry">
-                                                <img src="core/2024/ARDE.png" class="staff-img"
-                                                    alt="Aryan Arde">
+                                                <img src="core/2025/samiksha.jpg" class="staff-img"
+                                                    alt="Samiksha Gaonkar">
                                                 <div class="desc">
-                                                    <h3>Aryan Arde</h3>
+                                                    <h3>Samiksha Gaonkar</h3>
                                                     <span class="faculty-position">Joint SIGHT</span>
                                                     <div class="no-tablet"><br></div>
-                                                    <p><a href="https://www.linkedin.com/in/aryan-arde-792345260"
+                                                    <p><a href="https://in.linkedin.com/in/samiksha-gaonkar-a88bab22a "
                                                             class="btn btn-primary btn-outline with-arrow"
                                                             target="_blank">Visit
                                                             LinkedIn
@@ -464,12 +507,13 @@
                                         </div>
                                         <div class="col-md-4 text-center animate-box">
                                             <div class="staff-entry">
-                                                <img src="core/2024/AHIRE.png " class="staff-img" alt="Tanmayee Ahire">
+                                                <img src="core/2025/tanmayee.jpg" class="staff-img" alt="Tanmayee Ahire">
                                                 <div class="desc">
                                                     <h3>Tanmayee Ahire</h3>
                                                     <span class="faculty-position">WIE</span>
                                                     <div class="no-tablet"><br></div>
-                                                    <p><a href="https://www.linkedin.com/in/tanmayee-ahire-b56924277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                                    <p><a href="https://www.linkedin.com/in/tanmayee-ahire-b56924277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        "
                                                             class="btn btn-primary btn-outline with-arrow"
                                                             target="_blank">Visit
                                                             LinkedIn
@@ -479,13 +523,645 @@
                                         </div>
                                         <div class="col-md-4 text-center animate-box">
                                             <div class="staff-entry">
-                                                <img src="core/2024/GIRISH.png"
-                                                    class="staff-img" alt="Girish Sangare">
+                                                <img src="core/2025/mrunmayee.jpg"
+                                                    class="staff-img" alt="Mrunmai Paktekar">
                                                 <div class="desc">
-                                                    <h3>Girish Sangare</h3>
+                                                    <h3>Mrunmai Paktekar</h3>
                                                     <span class="faculty-position">Joint WIE</span>
                                                     <div class="no-tablet"><br></div>
-                                                    <p><a href="https://www.linkedin.com/in/girish-sangare-41a26a29a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                                    <p><a href="https://www.linkedin.com/in/mrunmai-paktekar-00663434b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        "
+                                                            class="btn btn-primary btn-outline with-arrow"
+                                                            target="_blank">Visit
+                                                            LinkedIn
+                                                            Page <i class="fa fa-arrow-right"></i></a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Core -->
+
+
+                            <!-- Footer -->
+                            <footer id="colorlib-footer">
+                                <div class="container">
+                                    <div class="row footer-row">
+                                        <div class="col-md-3 colorlib-widget">
+                                            <h4>About IEEE</h4>
+                                            <p>A not-for-profit organization, IEEE is the world's largest technical
+                                                professional
+                                                organization dedicated
+                                                to advancing technology for the benefit of humanity.
+                                            </p>
+                                            <!-- <p>
+                        <img src="res/img/ieee_white.png" class="footer-logo" alt="IEEE">
+                        
+                    </p> -->
+                                        </div>
+                                        <div class="col-md-3 colorlib-widget">
+                                            <h4 class="secondary">Information</h4>
+                                            <p>
+                                            <ul class="colorlib-footer-links">
+                                                <li><a href="/"><i class="fa fa-check"></i> Home</a></li>
+                                                <li><a href="team.html"><i class="fa fa-check"></i> Team</a></li>
+                                                <li><a href="diode.html"><i class="fa fa-check"></i> About Us</a></li>
+                                            </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3 colorlib-widget">
+                                            <h4 class="secondary">Contact Info</h4>
+                                            <ul class="colorlib-footer-links">
+                                                <li><strong>DBIT Mumbai</strong><br>Premier Automobiles Road, <br> Opp.
+                                                    HDIL Premier
+                                                    Exotica, <br> Kurla, <br> Mumbai, Maharashtra 400070</li>
+                                                <li><a href="mailto:dbitadm@gmail.com" target="_blank"><i
+                                                            class="fa fa-envelope"></i>ieee.dbit2017@gmail.com</a></li>
+                                            </ul>
+                                            <p>
+                                            <ul class="colorlib-social-icons">
+
+                                                <li><a href="https://www.instagram.com/ieee_dbit" target="_blank"><i
+                                                            class="fa fa-instagram"></i></a></li>
+
+                                                <li><a href="https://www.youtube.com/channel/UCmYHeMYXbf6nO_y2iE_Mc_w"
+                                                        target="_blank"><i class="fa fa-youtube"
+                                                            target="_blank"></i></a></li>
+                                                <li><a href="https://www.linkedin.com/company/ieee-dbit/"
+                                                        target="_blank"><i class="fa fa-linkedin"
+                                                            target="_blank"></i></a></li>
+                                                <li><a href="https://www.facebook.com/DbitIeee/" target="_blank"><i
+                                                            class="fa fa-facebook" target="_blank"></i></a></li>
+                                                </a></li>
+                                            </ul>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3 colorlib-widget">
+                                            <ul class="colorlib-footer-links"><img src="res/img/ieee_white.png"
+                                                    alt="IEEE Logo" width="250px">
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="copy">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 text-center">
+                                                <p>
+                                                    Copyright &copy;
+                                                    <script>document.write(new Date().getFullYear());</script>
+                                                    All rights reserved
+                                                    <br>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </footer>
+                        </div>
+                        <div class="gototop js-top">
+                            <a href="" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
+                        </div>
+                        <script src="js/main.js"></script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Fixing viewport on mobile views -->
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0">
+
+    <!-- Default Image present -->
+    <meta property="og:image" content="res/img/logo.png">
+
+    <!-- Page Title -->
+    <title>Team | IEEE DBIT</title>
+
+    <!-- Linked Sheets needed -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="res/css/icomoon.css">
+    <link rel="stylesheet" href="res/css/animate.css">
+    <link rel="stylesheet" href="res/css/bootstrap.css">
+    <link rel="stylesheet" href="res/css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Page specific -->
+    <link rel="stylesheet" href="res/css/team.css">
+    <style>
+        .staff-entry {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .row {
+            margin: 0 -15px;
+        }
+        .col-md-4 {
+            padding: 0 15px;
+        }
+    </style>
+
+    <!-- Linked Scripts needed -->
+    <script src="https://preview.colorlib.com/theme/unapp/js/modernizr-2.6.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.2.0/jquery.countTo.min.js"></script>
+
+    <!-- Preload -->
+    <link rel="preload" href="js/header.js" as="script">
+    <link rel="preload" href="js/particles.js" as="script">
+
+    <script src="js/header.js"></script>
+    <script src="js/team.js"></script>
+    <script src="js/particles.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106590424-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-106590424-3');
+
+        displayHeader();
+    </script>
+
+    <!-- Add animation initialization -->
+    <script>
+        $(document).ready(function() {
+            // Initialize waypoints for animate.css
+            $('.animate-box').waypoint(function() {
+                $(this.element).addClass('animated fadeIn');
+            }, {
+                offset: '90%'
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="colorlib-loader">
+        <div id="loader"></div>
+        <div id="loader"></div>
+        <div id="loader"></div>
+        <div id="loader"></div>
+        <div id="loader"></div>
+    </div>
+    <div id="page">
+        <nav class="colorlib-nav" role="navigation">
+            <div class="top-menu">
+                <div class="container">
+                    <div class="row" id="header">
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Landing -->
+        <section id="home" class="video-hero"
+            style="height: 500px; background-size:cover; background-position: center center;background-attachment:fixed;"
+            data-section="home">
+            <div id="particles-js"></div>
+            <div class="display-t display-t2 text-center">
+                <div class="display-tc display极tc2">
+                    <div class="container">
+                        <div class="col-md-12 col-md-offset-0 animate-box">
+                            <h2 class="page-title">Team</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Faculty -->
+        <div class="colorlib-intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+                        <h2>Faculty Members</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 text-center animate-box">
+                        <div class="staff-entry">
+                            <img src="core//2023/fredamam.jpeg" class="staff-img">
+                            <div class="desc">
+                                <h3>Ms. Freda Carvalho</h3>
+                                <span class="faculty-position">Assistant Professor - Department of Electronics and
+                                    Telecommunication Engineering <br> IEEE-DBIT-SB Counselor<br>
+                                </span>
+                                <div class="no-tablet"><br></div>
+                                <p><a href="https://sites.google.com/view/freda-carvalho-profile-page/home"
+                                        title="Ms. Freda Carvalho's Personal Page"
+                                        class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Profile
+                                        Page <i class="fa fa-arrow-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center animate-box">
+                        <div class="staff-entry">
+                            <img src="core//2023/fredamam.jpeg" class="staff-img">
+                            <div class="desc">
+                                <h3>Mr. Tayyabali Sayyad</h3>
+                                <span class="faculty-position">Assistant Professor - Department of Information Technology Engineering <br/>
+                                    IEEE-DBIT CS Branch Advisor
+                                </span>
+                                <div class="no-tablet"><br></div>
+                                <p><a href="https://sites.google.com/view/freda-carvalho-profile-page/home"
+                                        title="Ms. Freda Carvalho's Personal Page"
+                                        class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Profile
+                                        Page <i极fa fa-arrow-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center animate-box">
+                        <div class="staff-entry">
+                            <img src="core/2023/Ashwini.jpg" class="staff-img" alt="Dr. Ashwini Kotrashetti">
+                            <div class="desc">
+                                <h3>Dr. Ashwini Kotrashetti</h3>
+                                <span class="faculty-position">
+                                    Associate Professor<br>
+                                    dep. of Electronics and Telecommunication Engineering,<br>
+                                    Program Coordinator,
+                                    Engineering Futures - CrEAST Program - A L&T CSR Department funded project.
+                                    <br>
+                                </span>
+                                <p><a href="https://www.linkedin.com/in/dr-ashwini-kotrashetti-162917180"
+                                        title="Dr. Ashwini Kotrashetti Linkedin Page"
+                                        class="btn btn-primary btn-outline with-arrow" target="_blank">Visit LinkedIn
+                                        Page <i class="fa fa-arrow-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-10 col-md-offset-1 text-center colorlib-heading animate-box">
+                    <h2>Core Members</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-2 text-center animate-box">
+                        <div class="staff-entry">
+                            <img src="core/2025/kartik.jpg" class="staff-img" alt="Kartikk Dandelia">
+                            <div class="desc">
+                                <h3>Kartik Dandelia</h3>
+                                <span class="faculty-position">Chairperson</span>
+                                <div class="no-tablet"><br></div>
+                                <p><a href="https://www.linkedin.com/in/kartik-dandelia-3b5134268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                    "
+                                        class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Profile
+                                        Page <i class="fa fa-arrow-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center animate-box">
+                        <div class="staff-entry">
+                            <img src="core/2025/zubiaa.jpg" class="staff-img"
+                                alt="Zubia Sarang">
+                            <div class="desc">
+                                <h3>Zubia Sarang</h3>
+                                <span class="faculty-position">Vice Chairperson</span>
+                                <p><a href="https://www.linkedin.com/in/zubia-s-19054629a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                    "
+                                        class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Profile
+                                        Page <i class="fa fa-arrow-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-4 text-center animate-box">
+                        <div class="staff-entry">
+                            <img src="core/2025/aryan.jpg" class="staff-img"
+                                alt="Aryan Arde">
+                            <div class="desc">
+                                <h3>Aryan Arde</h3>
+                                <span class="faculty-position">Secretary</span>
+                                <p><a href="https://www.linkedin.com/in/aryan-arde-792345260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                    "
+                                        class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Profile
+                                        Page <i class="fa fa-arrow-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center animate-box">
+                        <div class="staff-entry">
+                            <img src="core/2025/prathamesh.jpg" class="staff-img"
+                                alt="Prathamesh Kurdekar">
+                            <div class="desc">
+                                <h3>Prathamesh Kurdekar</h3>
+                                <span class="faculty-position">Treasurer</span>
+                                <div class="no-tablet"><br></div>
+                                <p><a href=""
+                                        class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Profile
+                                        Page <i class="fa fa-arrow-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center animate-box">
+                        <div class="staff-entry">
+                            <img src="core/2025/moin.jpg" class="staff-img"
+                                alt="Moin Khan">
+                            <div class="desc">
+                                <h3>Moin Khan</h3>
+                                <span class="faculty-position">Web Master </span>
+                                <div class="no-tablet"><br></div>
+                                <p><a href="https://moinkhan-two.vercel.app"
+                                        class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Profile
+                                        Page <i class="fa fa-arrow-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 text-center animate-box">
+                            <div class="staff-entry">
+                                <img src="core/2025/jangam.jpg" class="staff-img"
+                                    alt="Aayush Jangam">
+                                <div class="desc">
+                                    <h3>Aayush Jangam</h3>
+                                    <span class="faculty-position">Joint Secretary</span>
+                                    <p><a href="https://www.linkedin.com/in/aayush-jangam-b13b7b307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                        "
+                                            class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Profile
+                                            Page <i class="fa fa-arrow-right"></i></a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 text-center animate-box">
+                            <div class="staff-entry">
+                                <img src="core/2025/nirmiti.jpg" class="staff-img"
+                                    alt="Nirmiti Bait">
+                                <div class="desc">
+                                    <h3>Nirmiti Bait</h3>
+                                    <span class="faculty-position">Joint Treasurer</span>
+                                    <div class="no-tablet"><br></div>
+                                    <p><a href="https://www.linkedin.com/in/nirmiti-babu-bait-03a6b42b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                        "
+                                            class="btn btn-primary btn-outline with-arrow" target="_blank">Visit Profile
+                                            Page <i class="fa fa-arrow-right"></i></a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 text-center animate-box">
+                                <div class="staff-entry">
+                                    <img src="core/2025/glynis.jpg" class="staff-img" alt="Glynis D'mello">
+                                    <div class="desc">
+                                        <h3>Glynis D'mello</h3>
+                                        <span class="faculty-position">Joint Web Master</span>
+                                        <p><a href=""
+                                                class="btn btn-primary btn-outline with-arrow" target="_blank">Visit
+                                                Profile
+                                                Page <i class="fa fa-arrow-right"></i></a></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4 text-center animate-box">
+                                    <div class="staff-entry">
+                                        <img src="core/2025/dhruv.jpg"
+                                            class="staff-img" alt="Dhruv Tare">
+                                        <div class="desc">
+                                            <h3>Dhruv Tare</h3>
+                                            <span class="faculty-position">Reporting Head</span>
+                                            <p><a href="https://www.linkedin.com/in/dhruv-tare-812193229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                " class="btn btn-primary btn-outline with-arrow"
+                                                    target="_blank">Visit
+                                                    Profile
+                                                    Page <i class="fa fa-arrow-right"></i></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 text-center animate-box">
+                                    <div class="staff-entry">
+                                        <img src="core/2025/gajbhiye.jpg" class="staff-img" alt="Ayush Gajbhiye">
+                                        <div class="desc">
+                                            <h3>Ayush Gajbhiye</h3>
+                                            <span class="faculty-position">PR & Publicity Head</span>
+                                            <div class="no-tablet"><br></div>
+                                            <p><a href="https://www.linkedin.com/in/ayush-gajbhiye-4712791b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                " class="btn btn-primary btn-outline with-arrow"
+                                                    target="_blank">Visit
+                                                    Profile
+                                                    Page <i class="fa fa-arrow-right"></i></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 text-center animate-box">
+                                        <div class="staff-entry">
+                                            <img src="core/2025/krushnali.jpg" class="staff-img" alt="Krushnali Mungekar">
+                                            <div class="desc">
+                                                <h3>Krushnali Mungekar</h3>
+                                                <span class="faculty-position">CS Chair</span>
+                                                <p><a href="https://www.linkedin.com/in/aditya-dabhade?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                                                        class="btn btn-primary btn-outline with-arrow"
+                                                        target="_blank">Visit
+                                                        Profile
+                                                        Page <i class="fa fa-arrow-right"></i></a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="row">
+                                        <div class="col-md-4 text-center animate-box">
+                                            <div class="staff-entry">
+                                                <img src="core/2025/pritika.jpg" class="staff-img"
+                                                    alt="Pritika">
+                                                <div class="desc">
+                                                    <h3>Pritika Mediboina</h3>
+                                                    <span class="faculty-position">Joint Reporting</span>
+                                                    <p><a href="https://www.linkedin.com/in/pritika-mediboina-884403321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        "
+                                                            class="btn btn-primary btn-outline with-arrow"
+                                                            target="_blank">Visit
+                                                            LinkedIn
+                                                            Page <i class="fa fa-arrow-right"></i></a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 text-center animate-box">
+                                            <div class="staff-entry">
+                                                <img src="core/2025/piyush.jpg" class="staff-img"
+                                                    alt="Piyush">
+                                                <div class="desc">
+                                                    <h3>Piyush Mistry</h3>
+                                                    <span class="faculty-position">Joint Publicity</span>
+                                                    <div class="no-tablet"><br></div>
+                                                    <p><a href="https://www.linkedin.com/in/piyush-mistry-560674317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        "
+                                                            class="btn btn-primary btn-outline with-arrow"
+                                                            target="_blank">Visit
+                                                            LinkedIn
+                                                            Page <i class="fa fa-arrow-right"></i></a></p>
+                                                </div>
+                                            </div>
+                                               
+                                        </div>
+                                        <div class="col-md-4 text-center animate-box">
+                                            <div class="staff-entry">
+                                                <img src="core/2025/shariya.jpg" class="staff-img"
+                                                    alt="Piyush">
+                                                <div class="desc">
+                                                    <h3>Shariya Ansari</h3>
+                                                    <span class="faculty-position">Vice CS</span>
+                                                    <div class="no-tablet"><br></div>
+                                                    <p><a href="https://www.linkedin.com/in/piyush-mistry-560674317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        "
+                                                            class="btn btn-primary btn-outline with-arrow"
+                                                            target="_blank">Visit
+                                                            LinkedIn
+                                                            Page <i class="fa fa-arrow-right"></i></a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 text-center animate-box">
+                                            <div class="staff-entry">
+                                                <img src="core/2025/yashvi.jpg"
+                                                    class="staff-img" alt="Yashvi Jain">
+                                                <div class="desc">
+                                                    <h3>Yashvi Jain</h3>
+                                                    <span class="faculty-position">MTT-S Chair</span>
+                                                    <div class="no-tablet"><br></div>
+                                                    <p><a href="https://www.linkedin.com/in/yashvi-jain-4a608a2b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        " class="btn btn-primary btn-outline with-arrow"
+                                                            target="_blank">Visit
+                                                            LinkedIn
+                                                            Page <i class="fa fa-arrow-right"></i></a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 text-center animate-box">
+                                            <div class="staff-entry">
+                                                <img src="core/2025/priyanshu.jpg" class="staff-img"
+                                                    alt="Priyanshu Sakharkar">
+                                                <div class="desc">
+                                                    <h3>Priyanshu Sakharkar</h3>
+                                                    <span class="faculty-position">RAS Chair</span>
+                                                    <div class="no-tablet"><br></div>
+                                                    <p><a href="https://www.linkedin.com/in/priyanshu-sakharkar-b6b31332b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        "
+                                                            class="btn btn-primary btn-outline with-arrow"
+                                                            target="_blank">Visit
+                                                            LinkedIn
+                                                            Page <i class="fa fa-arrow-right"></i></a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 text-center animate-box">
+                                            <div class="staff-entry">
+                                                <img src="core/2025/amey.jpg" class="staff-img"
+                                                    alt="Amey Dalvi">
+                                                <div class="desc">
+                                                    <h3>Amey Dalvi</h3>
+                                                    <span class="faculty-position">SIGHT Chair</span>
+                                                    <div class="no-tablet"><br></div>
+                                                    <p><a href="https://www.linkedin.com/in/amey-dalvi-3b3b832b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+                                                        "
+                                                            class="btn btn-primary btn-outline with-arrow"
+                                                            target="_blank">Visit
+                                                            LinkedIn
+                                                            Page <i class="fa fa-arrow-right"></i></a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 text-center animate-box">
+                                            <div class="staff-entry">
+                                                <img src="core/2025/anu.jpg" class="staff-img"
+                                                    alt="Anu Saha">
+                                                <div class="desc">
+                                                    <h3>Anu Saha</h3>
+                                                    <span class="faculty-position">Joint MTT-S</span>
+                                                    <div class="no-tablet"><br></div>
+                                                    <p><a href="https://www.linkedin.com/in/anu-saha545?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        "
+                                                            class="btn btn-primary btn-outline with-arrow"
+                                                            target="_blank">Visit
+                                                            LinkedIn
+                                                            Page <i class="fa fa-arrow-right"></i></a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 text-center animate-box">
+                                            <div class="staff-entry">
+                                                <img src="core/2025/sanket.jpg"
+                                                    class="staff-img" alt="Sanket Prajapati">
+                                                <div class="desc">
+                                                    <h3>Sanket Prajapati</h3>
+                                                    <span class="faculty-position">Joint RAS</span>
+                                                    <div class="no-tablet"><br></div>
+                                                    <p><a href="https://www.linkedin.com/in/sanketprajapati5220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        " 
+                                                            class="btn btn-primary btn-outline with-arrow"
+                                                            target="_blank">Visit
+                                                            LinkedIn
+                                                            Page <i class="fa fa-arrow-right"></i></a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 text-center animate-box">
+                                            <div class="staff-entry">
+                                                <img src="core/2025/samiksha.jpg" class="staff-img"
+                                                    alt="Samiksha Gaonkar">
+                                                <div class="desc">
+                                                    <h3>Samiksha Gaonkar</h3>
+                                                    <span class="faculty-position">Joint SIGHT</span>
+                                                    <div class="no-tablet"><br></div>
+                                                    <p><a href="https://in.linkedin.com/in/samiksha-gaonkar-a88bab22a "
+                                                            class="btn btn-primary btn-outline with-arrow"
+                                                            target="_blank">Visit
+                                                            LinkedIn
+                                                            Page <i class="fa fa-arrow-right"></i></a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 text-center animate-box">
+                                            <div class="staff-entry">
+                                                <img src="core/2025/tanmayee.jpg" class="staff-img" alt="Tanmayee Ahire">
+                                                <div class="desc">
+                                                    <h3>Tanmayee Ahire</h3>
+                                                    <span class="faculty-position">WIE</span>
+                                                    <div class="no-tablet"><br></div>
+                                                    <p><a href="https://www.linkedin.com/in/tanmayee-ahire-b56924277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        "
+                                                            class="btn btn-primary btn-outline with-arrow"
+                                                            target="_blank">Visit
+                                                            LinkedIn
+                                                            Page <i class="fa fa-arrow-right"></i></a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 text-center animate-box">
+                                            <div class="staff-entry">
+                                                <img src="core/2025/mrunmayee.jpg"
+                                                    class="staff-img" alt="Mrunmai Paktekar">
+                                                <div class="desc">
+                                                    <h3>Mrunmai Paktekar</h3>
+                                                    <span class="faculty-position">Joint WIE</span>
+                                                    <div class="no-tablet"><br></div>
+                                                    <p><a href="https://www.linkedin.com/in/mrunmai-paktekar-00663434b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                                        "
                                                             class="btn btn-primary btn-outline with-arrow"
                                                             target="_blank">Visit
                                                             LinkedIn
