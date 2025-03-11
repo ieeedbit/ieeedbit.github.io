@@ -1,0 +1,24 @@
+{
+    "title": " Blink to Build ARDUINO Workshop ",
+    "date": " 1st - feb 2025",
+    "description" : "The Arduino workshop by the IEEE-DBIT RAS Student Chapter provided students with a hands-on understanding of both hardware and software aspects of Arduino. It began with fundamental electronics, followed by an introduction to Arduino and its components. Students learned coding in the Arduino IDE and implemented experiments to bridge software with hardware. After the session, electronics students were issued Arduino boards to use for their mini-projects in this semester. Having gained hands-on experience during the workshop, they are now well-equipped to handle and implement Arduino in their projects effectively. The session enhanced technical skills, fostering confidence and enthusiasm in embedded systems.",
+    "links": [
+        {
+          "img1": "Event Page",
+          "url": "img/event1/arduinoFlyer.png"
+        },
+        {
+          "img2": "img2",
+          "url": "img/event1/arduinoImage.png "
+        },
+        {
+          "img3": "Event Link",
+          "url": "  " 
+        },
+        {
+        "img4": "Event pdf",
+        "url": ""  
+      }
+      ]
+    }
+    

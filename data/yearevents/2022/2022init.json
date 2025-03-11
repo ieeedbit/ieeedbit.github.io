@@ -1,0 +1,46 @@
+{
+  "event11" : {
+    "title":"Benefits of IEEE Membership    ",
+     "date": "21-Oct-22     "
+  },
+   "event10" : {
+    "title":"Final Year Project Selection    ",
+     "date": "13-Sep-2022     "
+  },
+   "event9" : {
+    "title":"Engineers Day Session-WIE    ",
+     "date": "15-Sep-2022"
+  },
+   "event8" : {
+    "title":"Techworld: STEM 2.0    ",
+     "date": "12-Sep-2022"
+  },
+   "event7" : {
+    "title":"Techworld: STEM 2.0    ",
+     "date": "10-Sep-2022     "
+  },
+  "event6" : {
+    "title":"PCB Layout Using KiCad  ",
+     "date": "09-Aug-2022  "
+  },
+  "event5" : {
+   "title":"Introduction Program",
+    "date": "21-Jul-2022    "
+ },
+ "event4" : {
+   "title":"Considering EMC at Design Stages   ",
+    "date": "09-Apr-2022    "
+ },
+
+ "event2" : {
+   "title":" Techworld-STEM Workshop ",
+    "date": "25-Feb-2022 and 08-Mar-2022"
+ },
+ "event1" : {
+   "title":"What is my measurement equipment actually doing? ",
+    "date": "11-Mar-2022"
+ }
+ 
+  
+  
+}

@@ -1,0 +1,12 @@
+[
+	{
+		"name": "Home",
+		"link": "/"
+    },
+   
+    {
+		"name": "Contact",
+		"link": "mailto:ieee@ajitha.com"
+    }
+   
+]

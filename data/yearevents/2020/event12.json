@@ -1,0 +1,18 @@
+{
+  "title":"Alumni Talk by Dr. Tom Sebastian:Skills for an Antenna and Microwave Design Engineer",
+  
+  "date": "06th August, 2020",
+  "description" : "The IEEE student chapter of DBIT organized an alumni talk on “Skills for an Antenna and Microwave Design Engineer” on the 6th of August, 2020.",
+  "links":[
+    {
+      "img1": "Event Page",
+      "url": "img/event12/l1.jpg" 
+    },
+    {
+      "img2" : "img2",
+      "url": "img/event12/l2.jpg"
+    }
+
+], 
+"pdf" : "pdf/l.pdf" 
+}

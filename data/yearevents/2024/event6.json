@@ -1,0 +1,25 @@
+{
+    "title":"Visit to Team Shunya’s Sustainable Home",
+    "date": "22nd March, 2024",
+    "description" :" By setting and achieving these sustainable goals, homeowners can contribute to a healthier environment, reduce their ecological footprint, and create a more resilient and comfortable living space for themselves and future generations.",
+    "links": 
+    [
+        {
+          "img1": "Event Page",
+          "url": "img/event6/1.png"
+        },
+        {
+          "img2": "img2",
+          "url": "img/event6/2.png"
+        },
+        {
+          "img3": "Registration Form",
+          "url": "https://ieee.dbit.in/2024/index.html?q=event6" 
+        },
+        {
+        "img4": "Event pdf",
+        "url": "pdf/Sustainable_home.pdf"  
+      }
+    ]
+}
+    

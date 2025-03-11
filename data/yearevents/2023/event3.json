@@ -1,0 +1,24 @@
+{
+    "title": "HAM Radio WORKSHOP",
+    "date": "31st march and 1st april 2023",
+    "description" : " Amateur Radio (ham radio) is a popular hobby and service that brings people, electronics and communication together. People use ham radio to talk across town, around the world, or even into space, all without the Internet or cell phones. It's fun, social, educational, and can be a lifeline during times of need. Although Amateur Radio operators get involved for many reasons, they all have in common a basic knowledge of radio technology and operating principles, and pass an examination for the FCC license to operate on radio frequencies known as the 'Amateur Bands'. These bands are radio frequencies allocated by the Federal Communications Commission (FCC) for use by ham radio operators.Amateur Radio operators come from all walks of life -- doctors, students, kids, politicians, truck drivers, movie stars, missionaries and even your average neighbor next door. They are of all ages, sexes, income levels and nationalities. Whether through Morse Code on an old brass telegraph key, voice communication on a hand-held radio or computerized messages transmitted via satellite, all hams use radio to reach out to the world.",
+    "links": [
+        {
+          "img1": "Event Page",
+          "url": "img/event3/1.jpeg"
+        },
+        {
+          "img2": "img2",
+          "url": "img/event3/2.png"
+        },
+        {
+          "img3": "Registration Form",
+          "url": "https://forms.gle/43XAg5DfUBzyCTV67" 
+        },
+        {
+        "img4": "Event pdf",
+        "url": "doc/HAM_radio_report.pdf" 
+      }
+      ]
+    }
+    

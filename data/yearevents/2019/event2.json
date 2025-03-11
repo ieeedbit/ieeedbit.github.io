@@ -1,0 +1,17 @@
+{
+  "title":"Basics of Proteus and Eagle",
+  
+  "date": "27th May, 2019",
+  "description" : "The webinar helped in creating the required awareness on Proteus and Eagle Software.",
+  "links":[
+    {
+      "img1": "Event Page",
+      "url": "img/event2/bb1.jpg" 
+    },
+    {
+      "img2" : "img2",
+      "url": "img/event2/bb2.jpg"
+    }
+
+]
+}
