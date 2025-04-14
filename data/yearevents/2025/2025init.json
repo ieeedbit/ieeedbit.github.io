@@ -6,6 +6,14 @@
   "event1": {
     "title":"Blink to build ARDUINO Workshop",
      "date": "1st February 2025"
+  },
+  "event3": {
+    "title":"HAM Radio Workshop",
+    "date": "22nd and 23rd March 2025"
+  },
+  "event4": {
+    "title":"Wordpress Express- Wordpress Workshop",
+    "date": "15th, 16th, 23rd March 2025"
   }
   
   
