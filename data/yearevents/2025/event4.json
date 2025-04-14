@@ -1,0 +1,24 @@
+{
+    "title": "Wordpress Express - Wordpress Workshop",
+    "date": "15th, 16th and 22nd March, 2025",
+    "description" : "The IEEE-DBIT Computer Society Student Chapter successfully organized a three-day workshop titled “WordPress Express” on March 15th, 16th, and 22nd, 2025. Designed to introduce students to the fundamentals of web development using WordPress, the event attracted enthusiastic participation from students across multiple engineering branches. The workshop aimed to empower attendees with hands-on experience in building fully functional websites from scratch — without requiring prior coding knowledge.",
+    "links": [
+        {
+          "img1": "Event Page",
+          "url": "img/event4/wordpressFlyer.jpg"
+        },
+        {
+          "img2": "img2",
+          "url": "img/event4/wordpress2.jpg"
+        },
+        {
+          "img3": "Event Link",
+          "url": "  " 
+        },
+        {
+        "img4": "Event pdf",
+        "url": "img/event4/wordpress.pdf"  
+      }
+      ]
+  }
+    
