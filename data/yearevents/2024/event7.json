@@ -1,0 +1,25 @@
+{
+    "title":"PCB Making Workshop",
+    "date": "28th September , 2024",
+    "description" :" This workshop offers practical experience in designing and fabricating Printed Circuit Boards (PCBs). Participants will also gain valuable insights from expert industry speakers.  ",
+    "links": 
+    [
+        {
+          "img1": "Event Page",
+          "url": "img/event7/PCB_Workshop.jpg"
+        },
+        {
+          "img2": "img2",
+          "url": "img/event7/PCB_2.jpg"
+        },
+        {
+          "img3": "Registration Form",
+          "url": "https://ieee.dbit.in/2024/index.html?q=event7" 
+        },
+        {
+        "img4": "Event pdf",
+        "url": "pdf/PCB_Workshop.pdf"  
+      }
+    ]
+}
+    
