@@ -5,11 +5,11 @@
     "links": [
         {
           "img1": "Event Page",
-          "url": "img/event6/openFlyer.jpg"
+          "url": "img/event6/hugoFlyer.jpeg"
         },
         {
           "img2": "img2",
-          "url": "img/event6/open1.jpg"
+          "url": "img/event6/hugoOne.jpeg"
         },
         {
           "img3": "Event Link",
@@ -17,7 +17,7 @@
         },
         {
         "img4": "Event pdf",
-        "url": "img/event6/Opensource.pdf"  
+        "url": "img/event6/hugo.pdf"  
       }
       ]
   }
