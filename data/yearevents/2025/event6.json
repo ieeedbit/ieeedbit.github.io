@@ -1,7 +1,7 @@
 {
-    "title": "Open-Source Contribution and GitHub Basics Workshop",
-    "date": "24th July, 2025",
-    "description" : "IEEE DBIT CS Student Chapter organized a hands-on “Open-Source Contribution Workshop” on 24th July 2025 for students of all departments."
+    "title": "Hugo - Static Website Generator Workshop", 
+    "date": "30th July, 2025", 
+    "description" : "IEEE DBIT CS Student Chapter organized a hands-on “Hugo Static Website Generator Workshop” on 24th July 2025 for students of all departments. The session began with an introduction to static site generators and a comparison of Hugo with other tools like Jekyll and Gatsby, highlighting its use cases and industry relevance.We guided the students step-by-step through the installation of Hugo, starting with downloading the correct version for their OS. They learned how to set up the environment variables and verify the installation using the command line. Finally, we ensured everyone successfully ran their first Hugo command to confirm the setup.",
     "links": [
         {
           "img1": "Event Page",
