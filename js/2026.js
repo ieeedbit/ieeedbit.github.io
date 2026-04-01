@@ -33,7 +33,7 @@ function initializeEvents() {
             for (myEvent in events) {
                 
                 htmlString += `<div class='col-md-6'><div class='event-card' id='` + myEvent + `' onclick="populateModal(` + i + `)" data-toggle="modal" data-target="#exampleModalCenter` + i + `" ><div class="event-content">`;
-                htmlString += `<a href="/2025/index.html?q=`+myEvent+`" class='name'><strong>` + events[myEvent].title + `</strong></a></div><div class='event-expand'><i class='fa fa-plus'></i></div></div></div>`;
+                htmlString += `<a href="/2026/index.html?q=`+myEvent+`" class='name'><strong>` + events[myEvent].title + `</strong></a></div><div class='event-expand'><i class='fa fa-plus'></i></div></div></div>`;
                 $("#events").html(htmlString);
                 
                 i += 1;
