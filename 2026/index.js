@@ -12,7 +12,7 @@ function initializeEvents() {
   var i = 0;
 
   // Load the data
-  url = "../data/yearevents/2025/" + eventTitle + ".json"
+  url = "../data/yearevents/2026/" + eventTitle + ".json"
   $.ajax({
     url: url,
     success: function(result) {
