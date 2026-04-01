@@ -1,1 +1,25 @@
+{
+    "title": " Building Small Language Models (SLMs) ",
+    "date": "24th February, 2026",
+    "description" : "The IEEE DBIT CS workshop on Small Language Models, held on 24 February 2026 and led by Mr. Lucky Rathore, provided 21 participants with a practical end-to-end understanding of SLMs, covering their fundamentals, fine-tuning, dataset preparation, evaluation, deployment, and real-world applications.",
+    "links": [
+        {
+          "img1": "Event Page",
+          "url": "img/event1/slm1.png"
+        },
+        {
+          "img2": "img2",
+          "url": "img/event1/slm2.png "
+        },
+        {
+          "img3": "Event Link",
+          "url": "  " 
+        },
+        {
+        "img4": "Event pdf",
+        "url": "pdf/IEEE_CS_SLMs.pdf"  
+      }
+      ]
+    }
+    
 
