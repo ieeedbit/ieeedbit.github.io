@@ -2,9 +2,12 @@
   "event1": {
     "title":" Building Small Language Models (SLMs)",
      "date": "24th February, 2026"
-  }
+  } ,
 
-  
+  "event2": {
+    "title":" Django Workshop",
+     "date": "5th - 6th March, 2026"
+  }
 
   
  

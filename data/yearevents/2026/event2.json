@@ -1,0 +1,25 @@
+{
+    "title": " Django Workshop",
+    "date": "5th - 6th March, 2026",
+    "description" : "The IEEE DBIT CS workshop on Django, held on 5th - 6th March 2026 and led by Mr. Lucky Rathore, provided 21 participants with a practical end-to-end understanding of Django, covering their fundamentals, fine-tuning, dataset preparation, evaluation, deployment, and real-world applications.",
+    "links": [
+        {
+          "img1": "Event Page",
+          "url": "img/event2/dja1.png"
+        },
+        {
+          "img2": "img2",
+          "url": "img/event2/dja2.png "
+        },
+        {
+          "img3": "Event Link",
+          "url": "  " 
+        },
+        {
+        "img4": "Event pdf",
+        "url": "pdf/IEEE_CS_DJANGO.pdf"  
+      }
+      ]
+    }
+    
+
