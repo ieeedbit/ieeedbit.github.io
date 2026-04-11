@@ -1,0 +1,25 @@
+{
+     "title": "Arduino Hands-on Workshop",
+  "date": "9 December 2025",
+  "description": "IEEE RAS conducted an Arduino Hands-on Workshop on 9 December 2025 to introduce participants to the fundamentals of Arduino hardware and embedded programming. The session provided practical exposure to Arduino architecture, GPIO operations, and programming using the Arduino IDE. Participants worked on mini-projects including LED control, PWM-based brightness modulation, and ultrasonic sensor-based distance measurement, gaining hands-on experience in real-time interfacing, debugging, and embedded system development.",
+    "links": [
+        {
+          "img1": "Event Page",
+          "url": "img/event7/Arduino1.png"
+        },
+        {
+          "img2": "img2",
+          "url": "img/event7/Arduino2.png "
+        },
+        {
+          "img3": "Event Link",
+          "url": "  " 
+        },
+        {
+        "img4": "Event pdf",
+        "url": "pdf/IEEE_Arduino Workshop_RAS_Dec 2025.pdf"  
+      }
+      ]
+    }
+    
+

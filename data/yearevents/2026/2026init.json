@@ -7,10 +7,29 @@
   "event2": {
     "title":" Django Workshop",
      "date": "5th - 6th March, 2026"
-  }
+  } ,
+
+  "event3": {
+    "title":" Colohacks 2026 (Hardware Hackathon)",
+     "date": "24 – 25 March 2026"
+  } ,
+
+  "event4": {
+    "title":"Rocket League (Robotics Competition)",
+     "date": "24 – 25 March 2026"
+  } ,
+
+  "event5": {
+    "title":" Office Bearers Felicitation & Orientation Event",
+     "date": "20 March 2026"
+  } ,
 
   
+
+  "event6": {
+    "title":" Hands-on Session on Building a 4-Wheeled Robot",
+     "date": "14 February 2026"
+  } 
  
-  
   
 }
