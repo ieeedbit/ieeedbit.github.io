@@ -1,0 +1,25 @@
+{
+    "title": " Django Workshop",
+    "date": "5th - 6th March, 2026",
+    "description": "The IEEE DBIT Computer Society conducted a two-day Django Full-Stack Web Development Workshop on 5th and 6th March 2026. Led by industry expert Mr. Shripad Kulkarni, the workshop provided over 100 participants with hands-on experience in building real-world web applications using Django. The session covered backend development, database integration, models, views, templates, and full-stack project development, along with hackathon-style teamwork, debugging, and deployment practices to equip students with industry-ready skills.",
+    "links": [
+        {
+          "img1": "Event Page",
+          "url": "img/event2/dja1.png"
+        },
+        {
+          "img2": "img2",
+          "url": "img/event2/dja2.png "
+        },
+        {
+          "img3": "Event Link",
+          "url": "  " 
+        },
+        {
+        "img4": "Event pdf",
+        "url": "pdf/IEEE_CS_DJANGO.pdf"  
+      }
+      ]
+    }
+    
+

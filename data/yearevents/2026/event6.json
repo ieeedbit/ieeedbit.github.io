@@ -1,0 +1,25 @@
+{
+    "title": "Hands-on Session on Building a 4-Wheeled Robot",
+  "date": "14 February 2026",
+  "description": "IEEE RAS organized a hands-on session on building a 4-wheeled robot on 14 February 2026 to introduce participants to Arduino programming, Bluetooth communication using the HC-05 module, and robotic bot construction. The workshop provided practical experience in microcontroller-based systems, wireless control, and real-time hardware integration. With guided support from instructors, participants developed functional robotic bots while enhancing their problem-solving skills, teamwork, and understanding of embedded systems and robotics applications.",
+    "links": [
+        {
+          "img1": "Event Page",
+          "url": "img/event6/Robot1.png"
+        },
+        {
+          "img2": "img2",
+          "url": "img/event6/Robot2.png "
+        },
+        {
+          "img3": "Event Link",
+          "url": "  " 
+        },
+        {
+        "img4": "Event pdf",
+        "url": "pdf/Report_IEEE_RAS_14_02_26.pdf"  
+      }
+      ]
+    }
+    
+
