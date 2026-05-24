@@ -27,7 +27,12 @@
   "event7": {
     "title":"Arduino Hands-on Workshop",
      "date": "9 December 2025"
-  } 
+  } ,
+
+  "event8": {
+    "title":"IEEE KiCAD Workshop",
+     "date": "13th August 2025 "
+  }
 
   
 

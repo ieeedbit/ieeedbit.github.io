@@ -1,0 +1,23 @@
+{
+  "title": "KiCAD Workshop",
+  "date": "13 August 2025",
+  "description": "IEEE DBIT RAS Student Branch conducted a KiCAD Workshop on 13 August 2025 to introduce participants to PCB design and electronic circuit development using the KiCAD EDA software. The workshop covered schematic capture, component libraries, footprint assignment, PCB layout design, routing techniques, design rule checks, and Gerber file generation. Participants gained hands-on experience by designing simple electronic circuits and understanding industry-standard PCB development workflows, enhancing their practical skills in electronics design and fabrication.",
+  "links": [
+    {
+      "img1": "Event Page",
+      "url": "img/event8/kicad1.png"
+    },
+    {
+      "img2": "img2",
+      "url": "img/event8/kicad2.png"
+    },
+    {
+      "img3": "Event Link",
+      "url": "  "
+    },
+    {
+      "img4": "Event pdf",
+      "url": "pdf/Kicad_workshop_report(1).pdf"
+    }
+  ]
+}
