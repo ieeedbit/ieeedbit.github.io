@@ -1,0 +1,23 @@
+{
+  "title": "Secure Secrets Management for Modern Applications",
+  "date": "26 July 2026",
+  "description": "The IEEE Computer Society Student Chapter at IEEE-DBIT organized an online technical workshop titled Secure Secrets Management for Modern Applications on 26 July 2026. The session aimed to raise awareness about application security and secure coding practices. Participants learned about the risks of hardcoded API keys, Cloud, Git and GitHub security, secure environment variables (.env files), and industry best practices for protecting sensitive credentials and cloud-based resources. The workshop emphasized the importance of secure authentication, data protection, and integrating security into the software development lifecycle. The session was attended by 18 participants and provided beginner-friendly insights into building secure, robust, and attack-resistant applications.",
+  "links": [
+    {
+      "img1": "Event Page",
+      "url": "img/event8/secure1.png"
+    },
+    {
+      "img2": "img2",
+      "url": "img/event8/secure2.png"
+    },
+    {
+      "img3": "Event Link",
+      "url": ""
+    },
+    {
+      "img4": "Event pdf",
+      "url": "pdf/IEEE_CS_Secure_Applications_final.pdf"
+    }
+  ]
+}
